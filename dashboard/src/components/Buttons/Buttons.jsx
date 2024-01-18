@@ -15,11 +15,18 @@ line-height:24px;
 font-weight: 500; 
 `
 export const ButtonSecondary = styled.button`
-font-size: 1.5em;
-text-align: center;
-color: #000;
-background:red;
-padding:1.5rem;
+display: flex;
+width: 392px;
+padding: 18px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px; 
+border-radius:16px;
+background-color:#e8f2ff;
+color:#1778fb;
+font-size:16px;
+line-height:24px;
+font-weight: 500; 
 `
 
 
