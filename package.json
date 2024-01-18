@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "pnpm": "^8.14.1",
+    "sass": "^1.70.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
