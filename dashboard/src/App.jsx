@@ -1,10 +1,13 @@
+import { ButtonPrimary, ButtonSecondary } from "./components/Buttons/Buttons"
 
 function App() {
-
+  
   return (
     <>
-    
-      <h1 className="text-9xl">Vite + React</h1>
+      <ButtonPrimary>salam</ButtonPrimary>
+
+      <ButtonSecondary>salam2</ButtonSecondary>
+      <h1 className="text-9xl text-red-100">Vite + React</h1>
     
     </>
   )
