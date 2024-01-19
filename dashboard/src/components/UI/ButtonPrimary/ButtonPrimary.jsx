@@ -1,10 +1,10 @@
 
-
+import styles from "./_buttonp.module.scss"
 
 const ButtonPrimary = ({children}) => {
     return ( 
         <>
-            <button>{children}</button>
+            <button className={`${styles.default}`}>{children}</button>
         </>
      );
 }

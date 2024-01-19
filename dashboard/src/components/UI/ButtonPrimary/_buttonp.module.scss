@@ -1,0 +1,12 @@
+@use '../../../styles/variable' as var;
+// @import '../../../styles/variable';
+
+
+.default{
+    background-color: var.$blue500;
+    color: #fff;
+    border-radius: 16px;
+    width: 392px;
+    padding: 18px 16px;
+    text-align: center;
+}
